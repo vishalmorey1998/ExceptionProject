@@ -20,7 +20,9 @@ public class UserController {
 UserServices us;
 @PostMapping("/createUser")
 public ResponseEntity<User> onCreateUser(@RequestBody User u)
-{   User userRef = us.saveUserData(u);
+
+{ System.out.println("Hii");
+	User userRef = us.saveUserData(u);
 	return new ResponseEntity<User>(userRef,HttpStatus.CREATED);
 
 }
