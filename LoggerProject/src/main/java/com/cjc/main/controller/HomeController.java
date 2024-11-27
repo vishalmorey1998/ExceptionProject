@@ -18,6 +18,6 @@ public class HomeController
 		log.warn("this is warn Event");
 		log.info("this is info Event");
 		log.debug("this is debug Event");
-		return "check the Console";
+		return "Plz check the Console";
 	}
 }
