@@ -1,0 +1,52 @@
+2024-11-27T14:52:19.249+05:30  INFO 14136 --- [LoggerProject] [restartedMain] com.cjc.main.LoggerProjectApplication    : Starting LoggerProjectApplication using Java 17.0.8.1 with PID 14136 (C:\Project_Lombok\LoggerProject\target\classes started by HP in C:\Project_Lombok\LoggerProject)
+2024-11-27T14:52:19.249+05:30  INFO 14136 --- [LoggerProject] [restartedMain] com.cjc.main.LoggerProjectApplication    : The following 1 profile is active: "info"
+2024-11-27T14:52:19.337+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-11-27T14:52:19.348+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27T14:52:19.348+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-27T14:52:19.355+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27T14:52:19.355+05:30  INFO 14136 --- [LoggerProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 105 ms
+2024-11-27T14:52:19.386+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-27T14:52:19.392+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path '/'
+2024-11-27T14:52:19.395+05:30  INFO 14136 --- [LoggerProject] [restartedMain] com.cjc.main.LoggerProjectApplication    : Started LoggerProjectApplication in 0.16 seconds (process running for 1362.995)
+2024-11-27T14:52:19.395+05:30  INFO 14136 --- [LoggerProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-27T14:52:24.629+05:30  INFO 14136 --- [LoggerProject] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-27T14:52:24.630+05:30  INFO 14136 --- [LoggerProject] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-27T14:52:24.630+05:30  INFO 14136 --- [LoggerProject] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-11-27T14:52:24.631+05:30 ERROR 14136 --- [LoggerProject] [http-nio-9091-exec-1] com.cjc.main.controller.HomeController   : this is erroe Event
+2024-11-27T14:52:24.631+05:30  WARN 14136 --- [LoggerProject] [http-nio-9091-exec-1] com.cjc.main.controller.HomeController   : this is warn Event
+2024-11-27T14:52:24.631+05:30  INFO 14136 --- [LoggerProject] [http-nio-9091-exec-1] com.cjc.main.controller.HomeController   : this is info Event
+2024-11-27T14:52:24.631+05:30 DEBUG 14136 --- [LoggerProject] [http-nio-9091-exec-1] com.cjc.main.controller.HomeController   : this is debug Event
+2024-11-27T14:55:11.510+05:30  INFO 14136 --- [LoggerProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-11-27T14:55:11.686+05:30  INFO 14136 --- [LoggerProject] [restartedMain] com.cjc.main.LoggerProjectApplication    : Starting LoggerProjectApplication using Java 17.0.8.1 with PID 14136 (C:\Project_Lombok\LoggerProject\target\classes started by HP in C:\Project_Lombok\LoggerProject)
+2024-11-27T14:55:11.686+05:30  INFO 14136 --- [LoggerProject] [restartedMain] com.cjc.main.LoggerProjectApplication    : The following 1 profile is active: "info"
+2024-11-27T14:55:11.779+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-11-27T14:55:11.780+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27T14:55:11.780+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-27T14:55:11.788+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27T14:55:11.788+05:30  INFO 14136 --- [LoggerProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 100 ms
+2024-11-27T14:55:11.823+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-27T14:55:11.828+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path '/'
+2024-11-27T14:55:11.831+05:30  INFO 14136 --- [LoggerProject] [restartedMain] com.cjc.main.LoggerProjectApplication    : Started LoggerProjectApplication in 0.159 seconds (process running for 1535.432)
+2024-11-27T14:55:11.832+05:30  INFO 14136 --- [LoggerProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-27T14:56:44.556+05:30  INFO 14136 --- [LoggerProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-27T14:56:49.447+05:30  INFO 14136 --- [LoggerProject] [restartedMain] com.cjc.main.LoggerProjectApplication    : Starting LoggerProjectApplication using Java 17.0.8.1 with PID 14136 (C:\Project_Lombok\LoggerProject\target\classes started by HP in C:\Project_Lombok\LoggerProject)
+2024-11-27T14:56:49.447+05:30  INFO 14136 --- [LoggerProject] [restartedMain] com.cjc.main.LoggerProjectApplication    : The following 1 profile is active: "uat"
+2024-11-27T14:56:49.540+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9092 (http)
+2024-11-27T14:56:49.540+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27T14:56:49.540+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-27T14:56:49.548+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27T14:56:49.548+05:30  INFO 14136 --- [LoggerProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 101 ms
+2024-11-27T14:56:49.581+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-27T14:56:49.587+05:30  INFO 14136 --- [LoggerProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9092 (http) with context path '/'
+2024-11-27T14:56:49.590+05:30  INFO 14136 --- [LoggerProject] [restartedMain] com.cjc.main.LoggerProjectApplication    : Started LoggerProjectApplication in 0.156 seconds (process running for 1633.19)
+2024-11-27T14:56:49.590+05:30  INFO 14136 --- [LoggerProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-27T14:57:11.082+05:30  INFO 14136 --- [LoggerProject] [http-nio-9092-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-27T14:57:11.083+05:30  INFO 14136 --- [LoggerProject] [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-27T14:57:11.084+05:30  INFO 14136 --- [LoggerProject] [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-11-27T14:57:11.085+05:30 ERROR 14136 --- [LoggerProject] [http-nio-9092-exec-1] com.cjc.main.controller.HomeController   : this is erroe Event
+2024-11-27T14:57:11.085+05:30  WARN 14136 --- [LoggerProject] [http-nio-9092-exec-1] com.cjc.main.controller.HomeController   : this is warn Event
+2024-11-27T14:57:11.085+05:30  INFO 14136 --- [LoggerProject] [http-nio-9092-exec-1] com.cjc.main.controller.HomeController   : this is info Event
+2024-11-27T14:57:14.247+05:30 ERROR 14136 --- [LoggerProject] [http-nio-9092-exec-5] com.cjc.main.controller.HomeController   : this is erroe Event
+2024-11-27T14:57:14.247+05:30  WARN 14136 --- [LoggerProject] [http-nio-9092-exec-5] com.cjc.main.controller.HomeController   : this is warn Event
+2024-11-27T14:57:14.247+05:30  INFO 14136 --- [LoggerProject] [http-nio-9092-exec-5] com.cjc.main.controller.HomeController   : this is info Event
+2024-11-27T15:04:39.720+05:30  INFO 14136 --- [LoggerProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
